@@ -21,7 +21,7 @@ export default function LetterPage({ setCurrentPage }) {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-2xl text-pink-300 mb-8 mt-10 md:mt-0"
         >
-          I've been staring at these all night…🌙
+          I know its not been easy for you ....
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -129,7 +129,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.5 }}
             className="text-xl text-purple-200 leading-relaxed"
           >
-            You're so beautiful, but I still hurt you… I'm so sorry.💔
+            my intention were never to hurt you . it was my failure 💔
           </motion.p>
 
           <motion.p
@@ -138,7 +138,7 @@ export default function LetterPage({ setCurrentPage }) {
             transition={{ duration: 0.8, delay: 1.8 }}
             className="text-lg text-pink-200 leading-relaxed max-w-lg mx-auto"
           >
-            I know words can't undo what I did, but I need you to know that you mean everything to me. I've been thinking about all our beautiful moments together, and I realize how much I've hurt the most precious person in my life. I promise to do better, to be better, for you.✨
+            I know words can't undo what I did, but I need you to know that you mean a lot  to me respectfully. You have always been my side and truly respect you whatever happened was never meant to happen this way. I promise to do better, to be better, for you.✨
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
