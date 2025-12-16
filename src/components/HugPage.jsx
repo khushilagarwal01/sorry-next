@@ -51,7 +51,7 @@ export default function HugPage({ setCurrentPage }) {
           repeat: Number.POSITIVE_INFINITY,
         }}
       >
-        🤗
+        
       </motion.div>
 
       <motion.div
@@ -63,12 +63,12 @@ export default function HugPage({ setCurrentPage }) {
         {/* Cute aura around teddy */}
         <div className="absolute inset-0 bg-gradient-to-r from-pink-400/25 to-red-400/25 rounded-full blur-2xl scale-110"></div>
         <img
-          src="/gifs/teddy-hug.gif"
-          alt="Teddy with open arms"
+          src="/gifs/teddy-sorry.gif"
+          alt="Teddy saying sorry"
           className=" mx-auto rounded-2xl relative z-10"
         />
 
-        {/* Floating love elements */}
+        {/* Floating flower elements */}
         <motion.div
           className="absolute -top-10 -left-10 text-xl"
           animate={{
@@ -96,15 +96,14 @@ export default function HugPage({ setCurrentPage }) {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-2xl text-pink-200 leading-relaxed"
         >
-          I don’t need anything fancy right now…
+         IM not saying mujhe maaf krde but 
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.1 }}
           className="text-xl text-purple-200 leading-relaxed"
-        >
-          Just your arms around me, that’s all I want.💕
+        > can you please give me a chance 💕
         </motion.p>
       </motion.div>
 
@@ -135,7 +134,7 @@ export default function HugPage({ setCurrentPage }) {
           }}
         />
         <Heart size={24} className="text-pink-200 relative z-10" />
-        <span className="relative z-10">Send a hug</span>
+        <span className="relative z-10">Send a slap </span>
       </motion.button>
 
       <AnimatePresence>
