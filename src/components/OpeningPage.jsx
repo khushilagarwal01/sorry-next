@@ -49,14 +49,14 @@ export default function OpeningPage({ setCurrentPage, setMusicPlaying, setShowMu
         transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
         className="mb-8 relative"
       >
-        {/* Cute glow effect around teddy */}
+        {/* Cute glow effect around frog */}
         <div className="absolute inset-0 bg-gradient-to-r from-pink-400/20 to-purple-400/20 rounded-full blur-xl scale-110"></div>
         <img
           src="/gifs/teddy-walking.gif"
           className="w-64 h-64 mx-auto rounded-2xl relative z-10"
         />
 
-        {/* Floating hearts around teddy */}
+        {/* Floating flowers  */}
         <motion.div
           className="absolute -top-2 -right-2 text-lg"
           animate={{
@@ -84,7 +84,7 @@ export default function OpeningPage({ setCurrentPage, setMusicPlaying, setShowMu
           transition={{ duration: 0.8, delay: 1.3 }}
           className="text-pink-200 text-xl leading-relaxed"
         >
-          It's late night… I've been walking for hours…
+          i know you dont want to talk.....
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -92,7 +92,7 @@ export default function OpeningPage({ setCurrentPage, setMusicPlaying, setShowMu
           transition={{ duration: 0.8, delay: 1.6 }}
           className="text-purple-200 text-xl leading-relaxed"
         >
-          I'm holding something heavy… not in hands, but in heart…
+          I made your heart feel heavy....
         </motion.p>
       </motion.div>
 
